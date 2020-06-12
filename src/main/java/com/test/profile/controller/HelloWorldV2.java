@@ -1,15 +1,12 @@
 package com.test.profile.controller;
 
-import com.google.gson.Gson;
 import com.test.profile.ModelCreator;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.Writer;
 
 @RestController
 @Profile("dev")
